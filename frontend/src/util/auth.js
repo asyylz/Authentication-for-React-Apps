@@ -35,4 +35,5 @@ export function checkAuthLoader() {
   if (!token || token === 'EXPIRED') {
     return redirect('/auth');
   }
+  return token;
 }

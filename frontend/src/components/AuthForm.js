@@ -11,6 +11,7 @@ import classes from './AuthForm.module.css';
 function AuthForm() {
   // if response  422 or 421 from action  response comes here   and greeted as data. And data.errors  rendered below conditionaly
   const data = useActionData();
+console.log(data)
   const navigation = useNavigation();
   const [searchParams] = useSearchParams();
   const isLogin = searchParams.get('mode') === 'login';
