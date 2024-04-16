@@ -18,13 +18,14 @@ import AuthenticationPage, {
 } from './pages/Authentication';
 import { action as logoutAction } from './pages/Logout';
 import { tokenLoader } from './util/auth';
+import { checkAuthLoader } from './util/auth';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <RootLayout />,
     errorElement: <ErrorPage />,
-    id:'root',
+    id: 'root',
     loader: tokenLoader,
     children: [
       { index: true, element: <HomePage /> },
@@ -51,6 +52,7 @@ const router = createBrowserRouter([
                 path: 'edit',
                 element: <EditEventPage />,
                 action: manipulateEventAction,
+                loader: checkAuthLoader,
               },
             ],
           },
@@ -58,6 +60,7 @@ const router = createBrowserRouter([
             path: 'new',
             element: <NewEventPage />,
             action: manipulateEventAction,
+            loader: checkAuthLoader,
           },
         ],
       },
