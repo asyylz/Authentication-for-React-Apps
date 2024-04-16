@@ -1,1 +1,25 @@
-{"events":[{"id":"e2","title":"A new event","image":"https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg","date":"2022-10-01","description":"Some awesome event!"}],"users":[{"email":"asiyeesen@hotmail.com","password":"$2a$12$TWaQy21M6HPqGtnoG6B25One2mvOvJKkq5ZdSGU2A2fFNVEAlF.vG","id":"f5437c44-b3a7-4099-b66d-092d4d0d5e07"}]}
+{
+  "events": [
+    {
+      "title": "test 2",
+      "image": "https://img.freepik.com/free-photo/digital-tablet-screen-smart-tech_53876-96808.jpg?t=st=1710968835~exp=1710972435~hmac=f5377ad0274dcdcf6210b9595431198b4182a72a9e7bc42a94a15fe3333b3953&w=1380",
+      "date": "2024-04-24",
+      "description": "fwefwef",
+      "id": "9f7786d7-8cec-473f-b3c1-f1efa2325ba4"
+    },
+    {
+      "id": "9f7786d7-8cec-473f-b3c1-f1efa2325ba6",
+      "title": "A new event",
+      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
+      "date": "2022-10-01",
+      "description": "Some awesome event!"
+    }
+  ],
+  "users": [
+    {
+      "email": "asiyeesen@hotmail.com",
+      "password": "$2a$12$TWaQy21M6HPqGtnoG6B25One2mvOvJKkq5ZdSGU2A2fFNVEAlF.vG",
+      "id": "f5437c44-b3a7-4099-b66d-092d4d0d5e07"
+    }
+  ]
+}
