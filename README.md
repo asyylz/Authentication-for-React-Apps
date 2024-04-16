@@ -1,8 +1,8 @@
 <body>
     <header>
         <h1>Event Management Application</h1>
-        <p>This repository extends a Single Page Application (SPA) built with React and React Router for managing
-            events. It includes authentication logic implemented solely with React Router concepts such as loaders,
+        <p>This repository extends the Single Page Application (SPA)  built with React and React Router for managing
+            events, which is located in SPA-With-React-Router repo. This version includes authentication logic implemented solely with React Router concepts such as loaders,
             submit actions, and hooks like useSearchParams, useActionData, useRouteLoaderData, and more. </p>
     </header>
     <section>
