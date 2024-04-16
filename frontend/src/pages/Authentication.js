@@ -9,7 +9,7 @@ export default AuthenticationPage;
 export async function action({ request }) {
   // built-in URL constructor, which is provided by the browser then access the searchParams object
 
-  //The searchParams object is part of the URL API 
+  //The searchParams object is part of the URL API
   const searchParams = new URL(request.url).searchParams;
 
   // get is a method available in data
@@ -38,7 +38,9 @@ export async function action({ request }) {
     // json is being called to create a JSON response.
     throw json({ message: 'Could not authenticate user' }, { status: 500 });
   }
+  const resData = await response.json();
+  const token = resData.token;
+  localStorage.setItem('token', token);
 
-  // soon:manage that token
   return redirect('/');
 }
