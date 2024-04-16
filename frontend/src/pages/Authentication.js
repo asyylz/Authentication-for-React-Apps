@@ -1,5 +1,5 @@
 import AuthForm from '../components/AuthForm';
-import { json } from 'react-router-dom';
+import { json, redirect } from 'react-router-dom';
 
 function AuthenticationPage() {
   return <AuthForm />;
@@ -34,4 +34,7 @@ export async function action({ request }) {
   if (!response.ok) {
     throw json({ message: 'Could not authenticate user' }, { status: 500 });
   }
+
+  // soon:manage that token
+  return redirect('/');
 }
