@@ -32,6 +32,7 @@ function EventDetailPage() {
 export default EventDetailPage;
 
 async function loadEvent(id) {
+  console.log(id);
   const response = await fetch('http://localhost:8080/events/' + id);
 
   if (!response.ok) {
