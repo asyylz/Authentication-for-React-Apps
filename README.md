@@ -1,9 +1,10 @@
 <body>
     <header>
         <h1>Event Management Application</h1>
-        <p>This repository extends a Single Page Application (SPA) built with React and React Router for managing
-            events. It includes authentication logic implemented solely with React Router concepts such as loaders,
-            submit actions, and hooks like useSearchParams, useActionData, useRouteLoaderData, and more. </p>
+        <p>TThis repository extends the Single Page Application (SPA) built with React and React Router for managing
+            events, which is located in <a href="https://github.com/asyylz/SPA-With-React-Router">SPA-With-React-Router repo.</a> It includes authentication logic
+            implemented solely with React Router concepts such as loaders,submit actions, and hooks like
+            useSearchParams, useActionData,useRouteLoaderData, and more. </p>
     </header>
     <section>
         <h1>Features</h1>
@@ -21,7 +22,7 @@
     <section>
         <h1>Installation</h1>
         <p>1.To run the application locally, follow these steps:</p>
-        <pre><code>git clone https://github.com/asyylz/Authentication-for-React-Apps.git></code></pre>
+        <pre><code>git clone https://github.com/asyylz/Authentication-for-React-Apps.git</code></pre>
         <p>2.Navigate to the project directory:</p>
         <pre><code>cd Authentication-for-React-Apps</code></pre>
         3.Install dependencies:
