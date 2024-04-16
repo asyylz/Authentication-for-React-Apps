@@ -14,6 +14,7 @@ function EventItem({ event }) {
     }
   }
 
+
   return (
     <article className={classes.event}>
       <img src={event.image} alt={event.title} />
